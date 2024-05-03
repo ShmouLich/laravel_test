@@ -14,7 +14,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function first(Request $request): \Illuminate\Http\JsonResponse
+    public function handleGetRequest(Request $request): \Illuminate\Http\JsonResponse
     {
 
         return response()->json(['message' => 'You are accessing my first endpoint.'], 200);

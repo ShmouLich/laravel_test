@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/first-endpoint', [Controller::class, 'first']);
+Route::get('/first-endpoint', [Controller::class, 'handleGetRequest']);
 
 Route::post('/post-endpoint', [Controller::class, 'handlePostRequest']);
