@@ -5,7 +5,7 @@ namespace Tests\Feature;
 // use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class httpTests extends TestCase
+class httpTest extends TestCase
 {
     /**
      * A basic test example.

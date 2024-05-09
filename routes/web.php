@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/first-endpoint', [Controller::class, 'handleGetRequest']);
 
 Route::post('/post-endpoint', [Controller::class, 'handlePostRequest']);
+
+Route::get('/work-day', [Controller::class, 'isWorkDay']);
+
+Route::post('/trvani', [Controller::class, 'getDuration']);
