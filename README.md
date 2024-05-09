@@ -50,6 +50,8 @@ V testech nebyla použita statická cesta (127.0.0.1:8000), ale raději jsem vyu
 
 Dalším úkolem bylo navrhnout systém počítající odhad dokončení úkolu. Měly přitom být (volitelně) zahrnuty víkendy i statní svátky.
 
+Pro tento úkol jsem vytvořil dva další endpointy, ```/work-day``` a ```/trvani```.
+
 ### Databáze
 
 Pro určení toho, zda je den státní svátek nebo ne, jsem využil databázi. Tu jsem si nejdříve musel lokálně zprovoznit (mysql percona) a následně v ní vytvořit tabulku ```Holidays```.
